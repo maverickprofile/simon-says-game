@@ -1,12 +1,28 @@
 body{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: #666;
 }
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 2rem;
+    margin: 1.5rem;
 }
 .btn-container{
     display: flex;
@@ -29,4 +45,23 @@ body{
 }
 .userFlash{
     background-color: black;
+}
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
